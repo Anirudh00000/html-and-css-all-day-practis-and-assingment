@@ -1,0 +1,75 @@
+
+
+  /* class selector */
+  .center {
+    text-align: center;
+    color: red;
+  }
+  /* id  selector */
+  #para1 {
+    text-align: center;
+    color: rgb(68, 0, 255);
+  }
+
+  /* universal selector */
+  * {
+    text-align: center;
+    color: rgb(27, 27, 216);
+  }
+
+  /* Descendant Selectors */
+  
+    h1 em {
+        color: green;
+    }
+    ul.menu {
+        padding: 0;
+        list-style: none;
+    }
+    ul.menu li{
+        display: inline;
+    }
+    ul.menu li a {
+        margin: 10px;
+        text-decoration: none;
+    }
+ /* boxing model */
+
+
+ /* div {
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    border: 10px solid rgb(214, 11, 11);
+    margin: 20px auto;
+} */
+
+
+
+/* Group selector */
+h1, p, div {
+    color: green;
+   }
+   
+   /* child selector */
+   div > p {
+    background-color: yellow;
+  }
+  /* table */
+  table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid;
+    color: rgb(214, 93, 12);
+}
+
+table {
+    border-collapse: collapse;
+    color: rgb(211, 16, 42)
+}
+
+th {
+    height: 50px;
+}

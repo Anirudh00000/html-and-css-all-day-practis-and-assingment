@@ -1,0 +1,38 @@
+ /* table */
+ table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  td {
+    border: 2px solid;
+    background-color: rgb(68, 218, 9);
+}
+th{
+    background-color: blue;
+    border: 2px solid;
+}
+ul.a {
+    list-style-type: circle;
+    
+  }
+  
+  ul.b {
+    list-style-image: url('bullet.png');
+   
+  }
+  ul.c
+  
+  {
+    list-style-image: url('arrow.jpg');
+    
+  }
+  ol.a
+   {
+    list-style-type: upper-roman;
+   
+}
+ol.b {list-style-type: upper-alpha;
+
+}
+
+

@@ -1,0 +1,75 @@
+.demo-content{
+    padding: 15px;
+    font-size: 18px;
+    background: #1061da;
+    margin-bottom: 15px;
+}
+.demo-content.bg-alt{
+    background: #29c50a;
+}
+.demo-content.bg-alt-3{
+    background-color: #f71a3f;
+}
+#first{
+    background-color: aqua;
+}
+#second{
+    background-color: #710ac5;
+}
+#third{
+    background-color: #c4699e;
+}
+#fourth{
+    background-color: #dfd1be;
+}
+#fifth{
+    background-color: #0d0f0c;
+}
+#six{
+    background-color: #10bcc2;
+}
+#seven{
+    background-color: #f06d30;
+}
+#header{
+    background-color: #10bcc2;
+    text-align: center;
+    text-decoration-color: #0d0f0c;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+
+  .main-content{
+    min-height: 230px;
+    background: #db7f07;
+}
+.sidebar-content{
+    min-height: 100px;
+    margin-bottom: 30px;
+}

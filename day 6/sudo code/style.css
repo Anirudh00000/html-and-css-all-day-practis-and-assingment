@@ -1,0 +1,28 @@
+/* pesudo class */
+#div1{
+    background-color: black;
+    color: aliceblue;
+    padding: 25px;
+    text-align: center;
+}
+#div1:hover{
+    background-color: rgb(6, 219, 70);
+}
+
+#div2{
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+
+
+#p2 {
+    display: none;
+    background-color: rgb(153, 27, 54);
+    color: aliceblue;
+    padding: 20px;
+  }
+      
+  #div2:hover + #p2 {
+    display: block;
+  }
